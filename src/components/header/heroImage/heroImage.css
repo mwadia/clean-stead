@@ -1,0 +1,20 @@
+/* // sm:max-xl:bg-gradient-to-l from-bgGradientL to-transparent bg-gradient-stop from-bgGradientL via-bgGradientL to-transparent  */
+.tw-gradient {
+  background: linear-gradient(
+    270deg,
+    #e5f7fd 0%,
+    #e5f7fd 68.75%,
+    rgba(229, 247, 253, 0) 100%
+  );
+}
+
+@media only screen and (max-width: 639px) {
+  .tw-gradient {
+    background: rgb(186, 226, 240);
+    width: 100%;
+    height: 100%;
+  }
+  .tw-grad-parent{
+    height: 300px;
+  }
+}
